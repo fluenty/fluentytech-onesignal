@@ -1,0 +1,17 @@
+{
+    "name": "fluentytech/onesignal",
+    "description": "Laravel Onesignal Package by Fluenty Pty Ltd",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Fluentytech\\Onesignal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vincent van Wyk",
+            "email": "vincent@fluenty.co.za"
+        }
+    ],
+    "require": {}
+}
