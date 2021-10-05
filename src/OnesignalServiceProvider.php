@@ -13,7 +13,7 @@ class OnesignalServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->loadMigrationsFrom(__DIR__.'/migrations');
     }
 
     /**
@@ -23,6 +23,6 @@ class OnesignalServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->app->make('Fluentytech\Onesignal\OnesignalController');
     }
 }
